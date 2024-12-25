@@ -1,0 +1,41 @@
+body{
+
+    background-color: #000;
+}
+
+#contenedor-header{
+
+    display: flex;
+    width: 1310px;
+    padding: 0px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+    background-color: #fff;
+  
+}
+
+
+#header{
+
+    display: flex;
+    align-items: center;
+    gap: 76px;
+
+}
+#logo{
+
+    margin-left: 100px;
+
+}
+
+#circle{
+
+    Border-radius: 50%;
+    background: #6E02A9;
+    filter: blur(150px);
+    
+    width: 317px;
+    flex-shrink: 0;
+
+}
